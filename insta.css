@@ -411,6 +411,26 @@ header{
     border-radius: 5px;
     background-color: var(--second-color);
 }
+.sec-3 .contaner .mid-s3::before {
+    content: '';
+    position: absolute;
+    background-color: #aaa;
+    top: 17px;
+    right: 10px;
+    width: 19px;
+    height: 1px;
+    transform: rotate(45deg);
+}
+.sec-3 .contaner .mid-s3::after {
+    content: '';
+    position: absolute;
+    background-color: #aaa;
+    top: 17px;
+    right: 10px;
+    width: 19px;
+    height: 1px;
+    transform: rotate(-45deg);
+}
 
 .sec-3 .contaner .mid-s3 img {
     border-radius: 50%;
@@ -419,6 +439,8 @@ header{
 }
 .sec-3 .contaner .active2::after {
     position: absolute;
+    width: 29px;
+    height: 14px;
     content: 'new';
     font-size: 12px;
     letter-spacing: 1px;
